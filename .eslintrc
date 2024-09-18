@@ -2,6 +2,8 @@
   "extends": "airbnb/base",
   "rules": {
     "no-underscore-dangle" : "off",
+    "no-console": "off",
+    "consistent-return": "off",
 	"no-plusplus": "off",
 	"import/extensions": "off"
   }
