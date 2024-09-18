@@ -33,6 +33,7 @@ const getMimeType = (extension) => {
       return 'application/octet-stream';
   }
 };
+
 const handle404 = (response, error) => {
   if (error.code === 'ENOENT') {
     // File not found, serve 404 page
